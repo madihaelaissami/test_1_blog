@@ -1,0 +1,8 @@
+<div class="row">
+    <app-post-list-item-component
+      *ngFor="let post of posts"
+      [post_titre]="post.title"
+      [post_contenu]="post.content"
+      [post_loveit]="post.loveIts">
+  </app-post-list-item-component>
+</div>
